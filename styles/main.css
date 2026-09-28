@@ -17,9 +17,9 @@ body {
     box-shadow: 5px 5px 0 0; 
     background: url(../images/SH\ DINO.png) right repeat-y;
     background-repeat: repeat-y;
-    background-position: calc(50% + 400px) top;
+    background-position: calc(50% + 375px) top;
     background-attachment: fixed;
-    background-size: 300px auto;
+    background-size: 350px auto;
     background-color: white;
     }
 
