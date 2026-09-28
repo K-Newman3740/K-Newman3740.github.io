@@ -10,11 +10,8 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0; 
-    background: url(/images/SH_orange.png);
-    background-repeat: repeat-y;
-    background-position: right top;
+    background: url(/images/SH_orange.png) right repeat-y;
     background-attachment: fixed;
-    background-size: 40px auto;
     background-color: white;
     }
 
