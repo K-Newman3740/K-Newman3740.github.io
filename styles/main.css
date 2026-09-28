@@ -26,7 +26,7 @@ body {
 a:focus,
 a:hover {
     font-style: italic;
-    color: orangered;
+    color: #f58625;
     }
 
 header h1 {
