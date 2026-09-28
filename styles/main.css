@@ -10,8 +10,11 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0; 
-    background: url(../images/Gallant\ Rex\ Final\ PNG.png) right repeat-y;
+    background: url(../images/SH_orange.png) right repeat-y;
+    background-repeat: repeat-y;
+    background-position: right top;
     background-attachment: fixed;
+    background-size: 50px auto;
     background-color: white;
     }
 
