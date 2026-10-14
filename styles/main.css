@@ -15,7 +15,7 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0; 
-    background: url(../images/SH\ DINO.png) right repeat-y;
+    background: url(../images/SH%20DINO.png) right repeat-y;
     background-repeat: repeat-y;
     background-position: calc(50% + 350px) top;
     background-attachment: fixed;
