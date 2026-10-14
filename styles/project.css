@@ -50,8 +50,6 @@ main {
     clear: left;
 }
 
-/* Quiz 4 - Article */
-
 article {
     clear: left;
     width: 70%;
@@ -79,8 +77,6 @@ article p::first-letter {
     color: lightgreen;
 }
 
-/* Quiz 4 - References Sidebar */
-
 aside {
     width: 20%;
     float: right;
@@ -88,8 +84,6 @@ aside {
     padding: 1em;
     box-sizing: border-box;
 }
-
-/* Quiz 4 - Footer */
 
 footer {
     clear: both;
@@ -100,8 +94,6 @@ footer p.copyright {
     text-align: center;
     font-size: 80%;
 }
-
-/* Quiz 4 - Fixed Contact Box */
 
 p.fixed {
     position: fixed;
