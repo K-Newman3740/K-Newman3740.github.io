@@ -140,7 +140,7 @@ body {
     background-color: white;
     background-image: url("../images/SH_orange.png");
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: 65% center;
     background-size: 400px auto;
     background-attachment: fixed;
     border: 2px solid black;
