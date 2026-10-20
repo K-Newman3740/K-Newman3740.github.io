@@ -64,7 +64,7 @@ main h1 {
 article {
     column-count: 3;
     column-gap: 40px;
-    column-rule: 10px dotted darkgreen;
+    column-rule: 6px dotted darkgreen;
 }
 
 section h2 {
