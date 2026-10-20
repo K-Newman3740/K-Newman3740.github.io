@@ -131,21 +131,20 @@ aside a:focus {
 }
 
 body {
+    width: 1000px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 90%;
-    max-width: 1400px;
     margin: 15px auto;
-    padding: 20px;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
     background-color: white;
-    background-image: url("../images/SH_DINO.png");
-    background-repeat: no-repeat;
-    background-position: 65% center;
-    background-size: 400px auto;
+    background-image: url("../images/SH_orange.png");
+    background-repeat: repeat-y;
+    background-position: right top;
+    background-size: 450px auto;
     background-attachment: fixed;
-    border: 2px solid black;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px gray;
 }
 
 footer {
