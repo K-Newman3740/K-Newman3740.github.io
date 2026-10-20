@@ -1,0 +1,151 @@
+
+html {
+    background-color: lightblue;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    max-width: 1400px;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu ul li {
+    float: left;
+}
+
+#nav_menu ul li a {
+    display: block;
+    width: 185px;
+    padding: 18px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: darkgreen;
+    color: white;
+}
+
+#nav_menu ul li a.current {
+    color: yellow;
+}
+
+#nav_menu ul li a:hover,
+#nav_menu ul li a:focus {
+    background-color: green;
+}
+
+header {
+    overflow: auto;
+    border-bottom: 2px solid darkgreen;
+    padding-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    color: darkgreen;
+    font-size: 200%;
+}
+
+article {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 10px dotted darkgreen;
+}
+
+section h2 {
+    color: darkgreen;
+    font-size: 150%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 95%;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+section p:first-of-type::first-letter {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 250%;
+    font-style: italic;
+    color: purple;
+}
+
+section img {
+    width: 210px;
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+video {
+    width: 90%;
+    margin: 10px 0;
+}
+
+aside {
+    position: fixed;
+    right: 1.5%;
+    top: 30%;
+    width: 330px;
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+    padding: 28px 15px 22px 22px;
+    font-size: 90%;
+}
+
+aside ol {
+    list-style-type: upper-roman;
+}
+
+aside ul {
+    list-style-type: square;
+}
+
+aside ul ol {
+    list-style-type: lower-alpha;
+}
+
+aside a {
+    color: darkgreen;
+}
+
+aside a:hover,
+aside a:focus {
+    color: purple;
+}
+
+body {
+    background-image: url("../images/Web_background_proto.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+footer {
+    clear: both;
+    border-top: 2px solid darkgreen;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 80%;
+}
+
+footer a {
+    color: purple;
+}
