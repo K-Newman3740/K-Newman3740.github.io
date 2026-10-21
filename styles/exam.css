@@ -7,7 +7,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 95%;
+    width: 97%;
     max-width: none;
     box-sizing: border-box;
     margin: 15px auto;
@@ -61,7 +61,7 @@ header {
 
 main {
     padding: 20px;
-    margin-right: 390px;
+    margin-right: 380px;
 }
 
 main h1 {
