@@ -21,7 +21,7 @@ body {
 #nav_menu {
     width: 50%;
     margin-top: 15px;
-    margin-left: 4%;
+    margin-left: 2%;
 }
 
 #nav_menu ul {
@@ -65,7 +65,7 @@ header {
 
 main {
     padding: 20px;
-    padding-left: 4%;
+    padding-left: 2%;
     margin-right: 25%;
 }
 
