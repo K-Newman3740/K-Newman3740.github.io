@@ -72,7 +72,7 @@ main h1 {
 article {
     column-count: 3;
     column-gap: 40px;
-    column-rule: 12px dotted darkgreen;
+    column-rule: 9px dotted darkgreen;
 }
 
 section h2 {
