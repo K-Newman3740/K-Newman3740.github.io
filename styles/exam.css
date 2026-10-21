@@ -18,6 +18,11 @@ body {
     box-shadow: 5px 5px 5px gray;
 }
 
+#nav_menu {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
 #nav_menu ul {
     list-style-type: none;
     margin: 0;
