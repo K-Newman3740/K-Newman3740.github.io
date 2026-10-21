@@ -96,9 +96,10 @@ section p:first-of-type::first-letter {
 }
 
 section img {
-    width: 210px;
+    width: 66%;
+    height: auto;
     float: left;
-    margin: 0 15px 10px 0;
+    margin: 0 10px 10px 0;
 }
 
 video {
