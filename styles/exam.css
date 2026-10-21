@@ -45,6 +45,7 @@ body {
     font-weight: bold;
     background-color: darkgreen;
     color: white;
+    border: 1px solid white;
 }
 
 #nav_menu ul li a.current {
