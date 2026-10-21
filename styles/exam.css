@@ -61,7 +61,7 @@ header {
 
 main {
     padding: 20px;
-    margin-right: 380px;
+    margin-right: 20%;
 }
 
 main h1 {
@@ -110,7 +110,7 @@ aside {
     position: fixed;
     right: 0%;
     top: 35%;
-    width: 350px;
+    width: 20vw;
     box-sizing: border-box;
     background-color: lightgreen;
     border: 2px solid darkgreen;
