@@ -151,7 +151,7 @@ body {
     background-color: white;
     background-image: url("../images/SH_DINO.png");
     background-repeat: repeat-y;
-    background-position: 97% -90px;
+    background-position: 97% -20vw;
     background-size: 700px auto;
     background-attachment: fixed;
 }
