@@ -21,7 +21,6 @@ body {
 #nav_menu {
     margin-top: 15px;
     margin-left: 15px;
-    margin-bottom: 5px;
 }
 
 #nav_menu ul {
@@ -57,7 +56,7 @@ body {
 header {
     overflow: auto;
     border-bottom: 4px solid darkgreen;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 main {
