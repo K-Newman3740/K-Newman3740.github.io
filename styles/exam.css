@@ -111,6 +111,7 @@ aside {
     right: 0%;
     top: 35%;
     width: 20vw;
+    height: 20vw;
     box-sizing: border-box;
     background-color: lightgreen;
     border: 2px solid darkgreen;
