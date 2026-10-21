@@ -1,6 +1,7 @@
 
 html {
-    background-color: lightblue;
+    background-image: linear-gradient(to right, lightblue 0%, white 100%);
+    background-attachment: fixed;
 }
 
 body {
