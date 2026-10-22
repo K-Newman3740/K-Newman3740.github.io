@@ -117,9 +117,8 @@ aside {
     position: fixed;
     right: 0%;
     top: 35%;
-    width: 21.5vw;
-    height: 19vw;
-    box-sizing: border-box;
+    width: 17.5vw;
+    height: 15vw;
     background-color: lightgreen;
     border: 2px solid darkgreen;
     padding: 2em;
