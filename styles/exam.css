@@ -20,8 +20,7 @@ body {
 
 #nav_menu {
     width: 50%;
-    height: 4%;
-    margin-top: 15px;
+    margin-top: 1em;
     margin-left: 2%;
 }
 
@@ -34,14 +33,13 @@ body {
 #nav_menu ul li {
     float: left;
     width: 20%;
-    height: 4%;
 }
 
 #nav_menu ul li a {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    padding: 18px 0;
+    padding: 1.125em 0;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -66,7 +64,7 @@ header {
 }
 
 main {
-    padding: 20px;
+    padding: 1.25em;
     padding-left: 2%;
     margin-right: 23%;
 }
@@ -79,7 +77,7 @@ main h1 {
 
 article {
     column-count: 3;
-    column-gap: 40px;
+    column-gap: 2.5em;
     column-rule: 12px dotted darkgreen;
 }
 
@@ -93,7 +91,7 @@ section h2 {
 section p {
     font-size: 150%;
     line-height: 1.5;
-    margin-bottom: 15px;
+    margin-bottom: 0.625em;
 }
 
 section p:first-of-type::first-letter {
@@ -112,7 +110,7 @@ section img {
 
 video {
     width: 90%;
-    margin: 10px 0;
+    margin: 0.625em 0;
 }
 
 aside {
@@ -164,19 +162,61 @@ body {
     background-image: url("../images/SH_DINO.png");
     background-repeat: repeat-y;
     background-position: 97% -20vw;
-    background-size: 700px auto;
+    background-size: 27.35vw auto;
     background-attachment: fixed;
 }
 
 footer {
     clear: both;
     border-top: 4px solid darkgreen;
-    padding: 15px;
-    margin-top: 0px;
+    padding: 0.9375em;
+    margin-top: 0;
     text-align: center;
     font-size: 95%;
 }
 
 footer a {
     color: purple;
+}
+
+@media only screen and (max-width: 1800px) {
+    main h1 {
+        font-size: 200%;
+    }
+
+    section h2 {
+        font-size: 150%;
+    }
+
+    section p {
+        font-size: 100%;
+        line-height: 1.4;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #nav_menu {
+        width: 65%;
+    }
+
+    article {
+        column-gap: 1em;
+        column-rule: 0.5em dotted darkgreen;
+    }
+
+    section img {
+        width: 60%;
+        margin-right: 3%;
+    }
+
+    aside {
+        padding: 1em;
+    }
+
+    aside ol,
+    aside ul {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 1.5em;
+    }
 }
