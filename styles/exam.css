@@ -133,6 +133,11 @@ aside {
     justify-content: center;
 }
 
+aside p {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
 aside ol {
     list-style-type: upper-roman;
 }
