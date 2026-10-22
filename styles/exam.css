@@ -126,9 +126,6 @@ aside {
     font-family: "Times New Roman", Times, serif;
     font-size: 1vw;
     line-height: 1.15;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 aside p {
