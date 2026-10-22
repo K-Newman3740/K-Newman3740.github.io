@@ -94,7 +94,7 @@ section p {
     margin-bottom: 0.625em;
 }
 
-section p:first-of-type::first-letter {
+section p:nth-of-type(1)::first-letter {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 250%;
     font-style: italic;
