@@ -73,6 +73,10 @@ table.third tbody td:first-child {
     vertical-align: top;
 }
 
+table.third tbody td:nth-child(3)[rowspan] {
+    vertical-align: top;
+}
+
 table.third tbody tr:last-child {
     border-bottom: 2px solid orangered;
 }
